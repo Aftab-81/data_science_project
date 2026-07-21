@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion # This folder path will get created when we run ingestion 
+  source_URL: https://raw.githubusercontent.com/shrikant-temburwar/Wine-Quality-Dataset/master/winequality-white.csv  
+  local_data_file: artifacts/data_ingestion/data.csv
+  store_dir: artifacts/data_ingestion
