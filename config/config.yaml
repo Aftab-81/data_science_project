@@ -5,3 +5,8 @@ data_ingestion:
   source_URL: https://raw.githubusercontent.com/shrikant-temburwar/Wine-Quality-Dataset/master/winequality-white.csv  
   local_data_file: artifacts/data_ingestion/data.csv
   store_dir: artifacts/data_ingestion
+
+data_validation:
+  root_dir: artifacts/data_validation
+  store_data_dir: artifacts/data_ingestion/data.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
