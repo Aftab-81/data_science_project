@@ -13,5 +13,6 @@ COLUMNS:
   quality: int64
 
 TARGET_COLUMN:
+  name: quality
   quality: int64
 
